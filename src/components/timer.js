@@ -63,8 +63,8 @@ class Timer extends React.Component {
     const { hours, minutes, seconds } = this.state;
     return (
       <View style={[style.wrapper, wrapperStyle]}>
-        {!!hours && <FlipNumber number={hours} unit="hours" {...flipNumberProps} />}
-        <Separator />
+        {/* {!!hours && <FlipNumber number={hours} unit="hours" {...flipNumberProps} />}
+        <Separator /> */}
         {!!minutes && <FlipNumber number={minutes} unit="minutes" {...flipNumberProps} />}
         <Separator />
         {!!seconds && <FlipNumber number={seconds} unit="seconds" {...flipNumberProps} />}
