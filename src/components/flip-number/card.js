@@ -8,7 +8,7 @@ function Card({
   type, size, number, cardStyle, numberStyle,
 }) {
   return (
-    <View style={[style.card, type === 'upper' ? { borderBottomWidth: 0.5 } : { borderTopWidth: 0.5 }, cardStyle]}>
+    <View style={[style.card, type === 'upper' ? { borderBottomWidth: 0 } : { borderTopWidth: 0 }, cardStyle]}>
       <Text style={[style.number, {
         transform: [type === 'upper' ? { translateY: size * 0.3 } : { translateY: -size * 0.3 }],
         fontSize: size / 1.5,
