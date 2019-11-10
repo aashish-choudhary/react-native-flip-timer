@@ -16,13 +16,13 @@ function FlipCard({
             top: 0,
             borderTopLeftRadius: size / 10,
             borderTopRightRadius: size / 10,
-            borderBottomWidth: 0.5,
+            borderBottomWidth: 0,
           }
           : {
             top: '50%',
             borderBottomLeftRadius: size / 10,
             borderBottomRightRadius: size / 10,
-            borderTopWidth: 0.5,
+            borderTopWidth: 0,
           },
         flipCardStyle,
       ]}
